@@ -1,0 +1,35 @@
+{
+  "name": "ismart-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "ipack": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hnzxb/ismart-pack.git"
+  },
+  "keywords": [
+    "nodejs",
+    "webpack",
+    "cli"
+  ],
+  "author": "ben.zeng@sharemarking.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hnzxb/ismart-pack/issues"
+  },
+  "homepage": "https://github.com/hnzxb/ismart-pack#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "fs-extra": "^4.0.1",
+    "lodash": "^4.17.4",
+    "commander": "^2.10.0",
+    "inquirer": "^3.2.1",
+    "chalk": "^2.0.1"
+  }
+}
